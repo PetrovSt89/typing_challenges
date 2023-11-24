@@ -1,7 +1,8 @@
+import typing
 from constants import ___
 
 
-def calculate_total_spent_for_user(user: ___) -> ___:
+def calculate_total_spent_for_user(user: typing.TypedDict) -> int:
     # попробуй тут воспользовать typing.TypedDict
     pass
 
